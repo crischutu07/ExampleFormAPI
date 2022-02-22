@@ -1,0 +1,21 @@
+name: ExampleFormAPI
+version: 1.0.0
+main: Example\ExampleFormAPI\Main
+author: example
+api: 4.0.0
+src-namespace-prefix: Example\ExampleFormAPI
+
+commands:
+  test:
+   description: "Test Commands For FormAPI"
+   permission: "example.cmd.test"
+   usage: "/test"
+   default: true
+permissions:
+  example.cmd.test:
+    description: "A Test FormAPI Permissions"
+    default: true
+
+
+
+...
