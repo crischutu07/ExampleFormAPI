@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace crischutu07\FormsUI;
+namespace Example\ExampleFormAPI\FormsUI;
 
 use pocketmine\plugin\PluginBase;
 
