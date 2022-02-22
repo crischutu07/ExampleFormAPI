@@ -1,6 +1,18 @@
 # ExampleFormAPI
-An Example of FormAPI code (not FormAPI Plugin Required)
+An Example of FormAPI code (no FormAPI Plugin Required)
 
-Currently Editing
-
+Currently Editing this README.md
 [FormUI](https://github.com/Vecnavium/FormsUI) by Vecnavium (FormUI)
+
+
+
+
+
+
+
+
+
+
+
+
+first release project btw
