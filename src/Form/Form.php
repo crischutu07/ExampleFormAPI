@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace idk\crisgaywa\Form;
+namespace Example\ExampleFormAPI\Form;
 
 use pocketmine\form\Form as IForm;
 use pocketmine\player\Player;
