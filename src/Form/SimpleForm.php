@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace idk\crisgaywa\Form;
+namespace Example\ExampleFormAPI\Form;
 
 class SimpleForm extends Form {
 
