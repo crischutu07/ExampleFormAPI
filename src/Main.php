@@ -1,7 +1,7 @@
 <?php
 // Namespace
 namespace Example\ExampleFormAPI;
-// Import Plugin from idk\crisgaywa\Form\
+// Import Plugin from Example\ExampleFormAPI\Form
 use Example\ExampleFormAPI\Form\Form;
 use Example\ExampleFormAPI\Form\SimpleForm;
 
