@@ -39,11 +39,10 @@ class Main extends PluginBase {
     } //create new SimpleForm
   public function form($player){
     $form = new SimpleForm(function(Player $sender, int $data = null){
-      $result = $data;
-      if($result === null){
+      if($data === null){
         return true;
       }
-      switch($result){ //Switch to $result
+      switch($data){ //Switch to $data
         case 0: //Executes case 1
         $sender->sendMessage("§a[ExampleFormAPI]§r Executed case 0");
         break; 
