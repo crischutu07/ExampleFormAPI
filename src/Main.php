@@ -38,19 +38,19 @@ class Main extends PluginBase {
         return true;
     } //create new SimpleForm
   public function form($player){
-    $form = new SimpleForm(function(Player $player, int $data = null){
-      $result = data;
-      if($result ==+ null){
+    $form = new SimpleForm(function(Player $sender, int $data = null){
+      $result = $data;
+      if($result === null){
         return true;
       }
       switch($result){ //Switch to $result
-        case 0; //Execute case 1
+        case 0: //Executes case 1
         $sender->sendMessage("§a[ExampleFormAPI]§r Executed case 0");
         break; 
-        case 1;
+        case 1:
         $sender->sendMessage("§a[ExampleFormAPI]§r Executed case 1");
         break;
-        case 2;
+        case 2:
         $sender->sendMessage("a[ExampleFormAPI]§r Executed case 2");
         break;
       }
