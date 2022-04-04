@@ -3,7 +3,7 @@
 namespace Example\ExampleFormAPI;
 // Import Plugin from Example\ExampleFormAPI\Form
 use Example\ExampleFormAPI\Form\Form;
-use Example\ExampleFormAPI\Form\SimpleForm;
+use Example\ExampleFormAPI\Form\CustomForm;
 
 // Plugin Base
 use pocketmine\plugin\PluginBase;
