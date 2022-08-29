@@ -18,10 +18,10 @@ use pocketmine\Server;
 // Text Format
 use pocketmine\utils\TextFormat;
 // Main Class
-class CustomFotm extends PluginBase {
+class CustomForm extends PluginBase {
 // function onDisable() : void {};
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool { // New Command
-        if($cmd->getName() == "test"){ //if sender was a Player
+        if($cmd->getName() == "test1"){ //if sender was a Player
             if($sender instanceof Player) { // Open Form 
             $this->form($sender);
             } else { // Opposite (if sender is a player) []
